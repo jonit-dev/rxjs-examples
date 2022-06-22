@@ -1,0 +1,36 @@
+Arguments: 
+  /usr/bin/node /home/jonit/.yarn/bin/yarn.js init
+
+PATH: 
+  /home/jonit/.yarn/bin:/home/jonit/.config/yarn/global/node_modules/.bin:/bin:/home/jonit/.rbenv/plugins/ruby-build/bin:/home/jonit/.rbenv/shims:/home/jonit/.rbenv/bin:/home/jonit/.pyenv/plugins/pyenv-virtualenv/shims:/home/jonit/.pyenv/shims:/home/jonit/.pyenv/bin:/home/jonit/.nvm/versions/node/v16.14.2/bin:/home/jonit/.yarn/bin:/home/jonit/.config/yarn/global/node_modules/.bin:/bin:/home/jonit/.rbenv/plugins/ruby-build/bin:/home/jonit/.rbenv/shims:/home/jonit/.rbenv/bin:/home/jonit/.pyenv/plugins/pyenv-virtualenv/shims:/home/jonit/.pyenv/shims:/home/jonit/.pyenv/bin:/home/jonit/.nvm/versions/node/v16.14.2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/share/rvm/bin:/home/jonit/android-studio/jre/bin:/home/jonit/Android/Sdk/tools/bin:/home/jonit/Android/Sdk/platform-tools:/home/jonit/Android/Sdk/emulator:/home/jonit/.rvm/bin:/home/jonit/android-studio/jre/bin:/home/jonit/Android/Sdk/tools/bin:/home/jonit/Android/Sdk/platform-tools:/home/jonit/Android/Sdk/emulator:/home/jonit/.rvm/bin
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  14.19.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/home/jonit/.yarn/lib/cli.js:137143:13)
+      at Interface.emit (events.js:400:28)
+      at Interface._ttyWrite (readline.js:1001:16)
+      at ReadStream.onkeypress (readline.js:265:10)
+      at ReadStream.emit (events.js:400:28)
+      at emitKeys (internal/readline/utils.js:358:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1270:36)
+      at ReadStream.emit (events.js:400:28)
+      at addChunk (internal/streams/readable.js:293:12)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
